@@ -42,12 +42,12 @@ const proyecto2 = () => {
         <Image src="https://i.ibb.co/HT3dcBb/cnn2.png" alt=""></Image>
       </div>
       <br></br>
-      <div className="px-96">
+      <div className="min-w-[75%] max-w-[75%] mx-auto">
         <Card className=" py-4 flex">
           <CardBody>
             <div className="flex justify-center">
               <div className="px-10">
-                <h4 className="text-white font-medium text-large">
+                <h4 className="text-white font-medium text-2xl">
                   Este proyecto consiste en el entrenamiento de un modelo de{" "}
                   <b>reconocimiento de emociones faciales</b> en base a un
                   conjunto de entrenamiento de 48x48px. La baja resolución
@@ -70,7 +70,7 @@ const proyecto2 = () => {
 
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Con propósito de aumento de datos, cada imagen tiene una
               probabilidad del 50% de ser volteada horizontalmente antes de
               llegar al modelo. De igual forma, se aplica una rotación aleatoria
@@ -85,7 +85,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               La red neuronal consiste en <b>tres capas de convolución</b>, con
               una salida de 32, 64 y 128 canales cada una. El tamaño de la
               matriz de imagen que cada capa recibe va disminuyendo desde los 48
@@ -106,7 +106,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Seguido a las capas de convolución se aplica una capa de{" "}
               <i>dropout</i>, la cual introduce aleatoriamente la eliminación de
               unidades (neuronas) durante el entrenamiento, lo que significa
@@ -125,7 +125,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Después del dropout los mapas de características tridimensionales
               producidos por las capas de convolución se transforman en tensores
               unidimensionales para su procesamiento. La capa siguiente, la cual
@@ -143,7 +143,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Posteriormente, se utilizan dos capas totalmente conectadas
               adicionales para reducir la dimensionalidad del espacio de
               decisión a tan solo 7 neuronas, representando las 7 emociones que
@@ -154,7 +154,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Posterior a cada capa de convolución y capa totalmente conectada
               se utilizan capas de activación ReLU. Estas introducen no
               linealidad al modelo (al convertir todo valor negativo en 0),
@@ -169,7 +169,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               Los hiperparametros utilizados fueron los siguientes:
             </h4>
             <br></br>
@@ -179,7 +179,7 @@ const proyecto2 = () => {
         <br></br>
         <Card className="px-4 py-4">
           <CardBody>
-            <h4 className="text-white font-medium text-large">
+            <h4 className="text-white font-medium text-2xl">
               La red originalmente contaba con una capa adicional de convolución
               con el propósito de ayudar al modelo inferir detalles más finos.
               Sin embargo, esto ocasionó que la red fuera muy propensa al
