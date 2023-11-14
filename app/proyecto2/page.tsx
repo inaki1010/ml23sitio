@@ -110,7 +110,7 @@ const proyecto2 = () => {
               Seguido a las capas de convolución se aplica una capa de{" "}
               <i>dropout</i>, la cual introduce aleatoriamente la eliminación de
               unidades (neuronas) durante el entrenamiento, lo que significa
-              que, en cada iteración, algunas de las neuronas se "apagan"
+              que, en cada iteración, algunas de las neuronas se apagan
               temporalmente. Esto ayuda a prevenir la coadaptación de unidades
               al forzar a la red a aprender características más robustas y
               generalizables, ya que no puede depender demasiado de ninguna
@@ -277,7 +277,7 @@ const proyecto2 = () => {
               gratificante. Me brindó la oportunidad de explorar y descubrir
               formas creativas de optimización. Este trabajo me permitió
               profundizar en el entendimiento sobre cómo se puede ajustar y
-              mejorar la 'inteligencia' de una red. Este proyecto no solo fue un
+              mejorar la inteligencia de una red. Este proyecto no solo fue un
               ejercicio de aprendizaje técnico, sino también una valiosa lección
               sobre el potencial y las posibilidades que la tecnología moderna
               puede ofrecer en diversos aspectos de la vida y el trabajo.
