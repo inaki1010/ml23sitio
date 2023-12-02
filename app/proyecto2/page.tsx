@@ -23,7 +23,7 @@ const proyecto2 = () => {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/proyecto2">
+            <Link color="foreground" href="/proyecto1">
               Proyecto 1
             </Link>
           </NavbarItem>
@@ -101,7 +101,10 @@ const proyecto2 = () => {
         </Card>
         <br></br>
         <div className="flex justify-center h-1/2">
-          <Image src="https://i.ibb.co/g7JVVCY/377235580-1271318670365888-531272057900287018-n.png" alt=""></Image>
+          <Image
+            src="https://i.ibb.co/g7JVVCY/377235580-1271318670365888-531272057900287018-n.png"
+            alt=""
+          ></Image>
         </div>
         <br></br>
         <Card className="px-4 py-4">
@@ -120,7 +123,10 @@ const proyecto2 = () => {
         </Card>
         <br></br>
         <div className="flex justify-center h-1/2">
-          <Image src="https://i.ibb.co/KFGSp0n/386856340-716384416656282-3601718657257782212-n.png" alt=""></Image>
+          <Image
+            src="https://i.ibb.co/KFGSp0n/386856340-716384416656282-3601718657257782212-n.png"
+            alt=""
+          ></Image>
         </div>
         <br></br>
         <Card className="px-4 py-4">
@@ -199,7 +205,10 @@ const proyecto2 = () => {
             </h4>
             <br></br>
             <div className="flex justify-center">
-              <Image alt="" src="https://scontent.fmxl1-1.fna.fbcdn.net/v/t1.15752-9/400280502_225472077101659_2069618099870094012_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGBof9SiyNW-PAcUx81gvwNR2UsMPmCModHZSww-YIyh6BwsxsmwZtWkJhVU6Jaxpj3cL5QDhx6iVa07BuTNdQo&_nc_ohc=mQ0V93hNN-sAX_xZDP1&_nc_ht=scontent.fmxl1-1.fna&oh=03_AdTGKmTYc5tqZFesC0Kq5HkiQ5I3vsiqSexqLuryxwVklw&oe=657A2795"></Image>
+              <Image
+                alt=""
+                src="https://scontent.fmxl1-1.fna.fbcdn.net/v/t1.15752-9/400280502_225472077101659_2069618099870094012_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGBof9SiyNW-PAcUx81gvwNR2UsMPmCModHZSww-YIyh6BwsxsmwZtWkJhVU6Jaxpj3cL5QDhx6iVa07BuTNdQo&_nc_ohc=mQ0V93hNN-sAX_xZDP1&_nc_ht=scontent.fmxl1-1.fna&oh=03_AdTGKmTYc5tqZFesC0Kq5HkiQ5I3vsiqSexqLuryxwVklw&oe=657A2795"
+              ></Image>
             </div>
             <br></br>
             <div className="flex justify-center">
