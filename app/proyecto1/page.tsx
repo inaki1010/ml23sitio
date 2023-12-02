@@ -265,7 +265,7 @@ const proyecto1 = () => {
                 <li>Random Forest</li>
               </ul>{" "}
               Random Forest es un conjunto de árboles de decisión que se
-              entrenan utilizando el método de "ensamble". Cada árbol se entrena
+              entrenan utilizando el método de ensamble. Cada árbol se entrena
               con una muestra aleatoria de datos Random Forest sirve para
               capturar relaciones complejas en los datos, lo cual puede ser
               conveniente en este caso. Es probable que tenga buen rendimiento.
