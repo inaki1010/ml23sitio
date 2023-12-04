@@ -8,6 +8,8 @@ import {
   Tab,
   Spacer,
 } from "@nextui-org/react";
+import NextImage from "next/image";
+import target_network from "./images/target_network.png"
 import Gist from "react-gist";
 import ParametersTable from "./components/ParametersTable";
 
@@ -261,16 +263,71 @@ export default function proyecto3 (){
             </p>
             <ParametersTable></ParametersTable>
 
-            AQUI FALTA PONER IMAGENES DE LAS GRAFICAS Y EXPLICARLAS
+            <div className="flex justify-center flex-col mt-3">
+                <h1 className="font-bold">Replay Memory</h1>
+                <p>
+                    Primero intentamos añadirle replay memory
+                </p>
+                <div className="flex flex-row justify-center ">
+                    <Image
+                        src="/images/replay_memory1.png"
+                        alt="NextUI hero Image"
+                        className="p-1"
+                    />
+                    <Image
+                        src="/images/replay_memory2.png"
+                        alt="NextUI hero Image"
+                        className="p-1"
+                    />
+                </div>
+            </div>
+
+            <div className="flex justify-center flex-col mt-3">
+                <h1 className="font-bold">Tomando progresivamente menos acciones, pero no funcionaba bien</h1>
+                <p>
+                    Luego le añadimos que tomara menos acciones progresivamenet, esto limita
+                    max_actions desde 1000 hasta 300, pero no funcionó muy bien y se le quito. 
+                </p>
+                <Image
+                    src="/images/menos_acciones.png"
+                    alt="NextUI hero Image"
+                    className="p-1"
+                />
+            </div>
+
+            <div className="flex justify-center flex-col mt-3">
+                <h1 className="font-bold">Con target Network</h1>
+                <p>
+                    Finalmente se le añadio una target network y funciono muy bien
+                </p>
+                <div className="flex flex-row justify-center ">
+                    <Image
+                        src="/images/target_network1.png"
+                        alt="NextUI hero Image"
+                        className="p-1"
+                    />
+                    <Image
+                        src="/images/target_network2.png"
+                        alt="NextUI hero Image"
+                        className="p-1"
+                    />
+                </div>
+            </div>
 
             <p
             className="font-bold text-center "
             style={{ fontSize: 50, paddingBottom: "2.5%" }}
             >
-                Pruebas y entrenamiento
+                Conclusiones
             </p>
 
-            FALTA CONCLUSION 
+            <Card className="m-8">
+                <CardBody>
+                    <p>
+                    En este proyecto de final, aprendimos valiosas lecciones sobre el entrenamiento de un agente de inteligencia artificial utilizando Deep Q-Networks en el desafiante entorno de MountainCar-v0. Nos enfrentamos a retos significativos, especialmente en lidiar con la limitada información visual y la complejidad de la estructura de recompensas, lo que puso a prueba nuestra comprensión y habilidades en aprendizaje por refuerzo. A pesar de estos desafíos, nos emocionó ver cómo nuestro agente progresivamente aprendió y se adaptó, mejorando su desempeño a través de la exploración y explotación balanceadas. La implementación y ajuste de la red neuronal y la memoria de repetición de jugadas fueron especialmente reveladores, mostrándonos la importancia y el impacto de una buena arquitectura y estrategias de aprendizaje en IA.
+                    </p>
+                </CardBody>
+            </Card>
         </div>
       </>
     );
