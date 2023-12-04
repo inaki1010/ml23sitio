@@ -28,7 +28,7 @@ export default function proyecto3 (){
                     <div className="px-10">
                         <h4 className="text-white font-medium text-2xl">
                             Este proyecto explora el entrenamiento de un agente de inteligencia artificial
-                            en el entorno "MountainCar-v0" de Gymnasium, utilizando una red neuronal profunda 
+                            en el entorno MountainCar-v0 de Gymnasium, utilizando una red neuronal profunda 
                             Q (Deep Q-Network, DQN). A pesar de la aparente simplicidad del entorno, la tarea
                             plantea retos significativos debido a la limitada información visual y a la estructura 
                             de recompensas. Estas restricciones se convierten en un campo de pruebas para evaluar y 
@@ -52,10 +52,10 @@ export default function proyecto3 (){
                     <Card>
                         <CardBody>
                             <p>
-                                - En Q-Learning, un agente interactúa con un entorno que se encuentra en un "estado" particular.
+                                - En Q-Learning, un agente interactúa con un entorno que se encuentra en un estado particular.
                             </p>
                             <p>
-                                - El agente puede tomar diversas "acciones", y cada acción lleva al entorno a un nuevo estado.
+                                - El agente puede tomar diversas acciones, y cada acción lleva al entorno a un nuevo estado.
                             </p>
                         </CardBody>
                     </Card>
@@ -91,7 +91,7 @@ export default function proyecto3 (){
                                 - Los Q-valores se actualizan utilizando la Ecuación de Bellman. 
                             </p>
                             <p>
-                                - En su forma más básica, la ecuación es: Q(s,a) = Q(s,a) + α [R(s,a) + γ maxa' Q(s',a') - Q(s,a)].
+                                - En su forma más básica, la ecuación es: Q(s,a) = Q(s,a) + α [R(s,a) + γ maxa{"'"} Q(s{"'"},a{"'"}) - Q(s,a)].
                             </p>
                         </CardBody>
                     </Card>
@@ -134,7 +134,7 @@ export default function proyecto3 (){
                     <CardBody>
                     <p><strong>Agente</strong></p>
                     <p>
-                        El agente utiliza Q-learning para controlar un automóvil en el entorno "MountainCar-v0" de Gymnasium.
+                        El agente utiliza Q-learning para controlar un automóvil en el entorno MountainCar-v0 de Gymnasium.
                     </p>
                     </CardBody>
                 </Card>
@@ -164,7 +164,7 @@ export default function proyecto3 (){
                 <p>
                 La red neuronal definida en la clase DeepQNetwork es una red neuronal de alimentación directa (feedforward) con tres capas completamente conectadas
                 <br></br>
-                Tambien tienes "self.target" que es una copia de la red.
+                Tambien tienes self.target que es una copia de la red.
                 </p>
                 </CardBody>
             </Card>
@@ -173,7 +173,7 @@ export default function proyecto3 (){
             <Card className="m-8">
                 <CardBody>
                 <p>
-                    Se utiliza una 'red objetivo' (TargetNetwork) para mejorar la estabilidad 
+                    Se utiliza una red objetivo (TargetNetwork) para mejorar la estabilidad 
                     durante el entrenamiento en el Q-learning profundo. Esta red objetivo tiene
                     la misma arquitectura que la red principal, pero sus pesos se actualizan de
                     forma diferida y menos frecuente.
@@ -188,7 +188,7 @@ export default function proyecto3 (){
             <Card className="m-8">
                 <CardBody>
                 <p>
-                    Se utiliza una 'relu' para una activacion no lineal entre las capas completamente conectadas.
+                    Se utiliza una relu para una activacion no lineal entre las capas completamente conectadas.
                 </p>
                 </CardBody>
             </Card>
