@@ -4,6 +4,7 @@ import {
   CardBody,
   Image,
 } from "@nextui-org/react";
+
 const proyecto2 = () => {
   return (
     <>
