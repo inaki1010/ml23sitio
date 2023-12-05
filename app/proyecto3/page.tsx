@@ -171,6 +171,14 @@ export default function proyecto3 (){
                 </CardBody>
             </Card>
 
+            <div className="w-full">
+                <Image
+                    src="/images/red.png"
+                    alt="NextUI hero Image"
+                    className="p-1"
+                />
+            </div>
+
             <Gist id="8d52c2f1ecfdc437e695567eb5ecb573" />
             <Card className="m-8">
                 <CardBody>
@@ -299,6 +307,9 @@ export default function proyecto3 (){
                 <h1 className="font-bold">Con target Network</h1>
                 <p>
                     Finalmente se le añadio una target network y funciono muy bien
+                </p>
+                <p>
+                    Con esta red se obtuvo un 7/10 de calidad en el conjunto de validacion.
                 </p>
                 <div className="flex flex-row justify-center ">
                     <Image
